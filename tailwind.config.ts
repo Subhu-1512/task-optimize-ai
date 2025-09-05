@@ -52,6 +52,28 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				/* Success colors */
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
+				info: {
+					DEFAULT: 'hsl(var(--info))',
+					foreground: 'hsl(var(--info-foreground))'
+				},
+				/* Priority colors */
+				'priority-high': 'hsl(var(--priority-high))',
+				'priority-medium': 'hsl(var(--priority-medium))',
+				'priority-low': 'hsl(var(--priority-low))',
+				/* Status colors */
+				'status-pending': 'hsl(var(--status-pending))',
+				'status-progress': 'hsl(var(--status-progress))',
+				'status-completed': 'hsl(var(--status-completed))',
+				/* Sidebar */
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
